@@ -895,9 +895,9 @@ transition:transform 800ms cubic-bezier(0, 0.45, 0.15, 1)}
     color: white;
     font-size: 16px;
     fill: #fff;
-    padding:0 20%;
+    padding:0 15%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin: 10px;
+    margin: 5px;
 }
 
 .social-button svg {
