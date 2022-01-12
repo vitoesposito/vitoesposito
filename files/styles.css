@@ -1,10 +1,10 @@
 @font-face{font-family:Averta;
-src:url("../../font/averta/eot/hinted-Averta-Bold.eot");
-src:url("../../font/averta/eot/hinted-Averta-Bold.eot?#iefix") format("embedded-opentype"),url("../../font/averta/woff2/Averta Bold.woff2") format("woff2"),url("../../font/averta/woff/hinted-Averta-Bold.woff") format("woff");
+src:url("./averta-bold.otf");
+src:url("./averta-bold.otf") format("embedded-opentype"),url("./averta-bold.otf") format("woff2"),url("./averta-bold.otf") format("otf");
 font-weight:700;
 font-style:normal;
 font-display:swap}@font-face{font-family:Cotham;
-src:url("../../font/cotham/cothamsans-webfont.woff2") format("woff2"),url("../../font/cotham/cothamsans-webfont.woff") format("woff");
+src:url("./CothamSans.otf") format("woff2"),url("CothamSans.otf") format("otf");
 font-weight:normal;
 font-style:normal;
 font-display:swap}body{background-color:#7b1cbb}
