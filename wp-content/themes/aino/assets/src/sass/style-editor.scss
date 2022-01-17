@@ -1,0 +1,69 @@
+@import "1-base/base-index";
+@import "2-components/components-index";
+@import "3-blocks/blocks-index";
+@import "4-layout/layout-index";
+@import "5-woocommerce/woocommerce-index";
+
+.edit-post-visual-editor__post-title-wrapper {
+	margin-top: var(--s-r-9);
+	margin-bottom: var(--s-r-9);
+}
+
+.wp-block-group.alignfull>.alignfull,
+*[class*="wp-container-"]>.alignfull {
+	width: calc(100% + var(--global--content--padding--left) + var(--global--content--padding--right)) !important;
+	margin-left: calc(-1 * var(--global--content--padding--left)) !important;
+	margin-right: calc(-1 * var(--global--content--padding--right)) !important;
+}
+
+/* Container and Alignment */
+.wp-block[data-align=full] .wp-block-group .wp-block {
+	max-width: var(--global--wide-content-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-block-group.has-background.content-gap,
+.site-header,
+.wp-block[data-align="wide"],
+.wp-block[data-align=full] .alignwide,
+.site-footer .footer-content {
+	padding-left: var(--global--content--padding--left);
+	padding-right: var(--global--content--padding--right);
+}
+
+/* Tagcloud and Category List in Button Style */
+.wp-block-categories.is-style-btn {
+
+	.wp-block-categories__list {
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.wp-block-search .wp-block-search__button {
+	min-width: auto !important;
+}
+
+.btn-rounded {
+	.wp-block-search .wp-block-search__button {
+		border-radius: var(--global--border-radius-xxs);
+	}
+}
+
+.components-button{
+
+	&:hover {
+		color: currentColor;
+		background-color: transparent;
+	}
+}
+
+.wp-block-social-link {
+
+	button {
+		background-color: transparent;
+	}
+}
